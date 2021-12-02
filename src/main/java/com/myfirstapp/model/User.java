@@ -2,7 +2,7 @@ package com.myfirstapp.model;
 
 public class User {
     private String firstName;
-    private String LastName;
+    private String lastName;
 
     public String getFirstName() {
         return firstName;
@@ -13,10 +13,10 @@ public class User {
     }
 
     public String getLastName() {
-        return LastName;
+        return lastName;
     }
 
     public void setLastName(String lastName) {
-        LastName = lastName;
+        lastName = lastName;
     }
 }
